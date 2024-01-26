@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#para {
+    font-size:x-small;
+    width: 50%;
+}
+
+.othertag{
+    position: absolute;
+    margin-left: 60%;
+    top: 12px;
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    left: 18%;
+    top: 110%;
+    height: 70px;
+    justify-content: space-between;
+}
+
