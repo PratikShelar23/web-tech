@@ -44,11 +44,11 @@
     <ruby>Pratik<rt>firstName</rt></ruby><ruby>Shelar<rt>lastName</rt></ruby> 
     <br>
     <br>
-    <marquee behavior="bounce" direction="left" scrollamount="5">Pratik Shelar</marquee>
+    <marquee behavior="bounce" direction="right" scrollamount="5">Pratik Shelar</marquee>
     <br>
     </div>
    
-    <img height="100px" src="./images/box.png" alt="Profile pic">
+    <img id="me" height="100px" src="./images/box.png" alt="Profile pic">
     <br>
     <a id="nav" href="https://www.youtube.com/watch?v=AK1pLF9U1BY" target="_blank">Sukhachi vaat</a>
     <br>
@@ -62,14 +62,356 @@
     <video src="" controls loop>Video from folder</video>
     <br>
     </div>
+    <div class="list">
+        <h3>Order list</h3>
+        <ol type="A" start="26" reversed>
+            <li>Post Malone</li>
+            <li>21 Savage</li>
+            <li>J cole</li>
+            <li>Kendrick Lamar</li>
+        </ol>
+        <br>
+        <h3>Unorder list</h3>
+        <ul type="circle">
+            <li>Divine</li>
+            <li>Karma</li>
+            <li>Hanumankind</li>
+            <li>Shreyas</li>
+        </ul>
+        <br>
+        <h3>Discritive list</h3>
+        <dl>
+            <dt>HipHop</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, voluptatibus.</dd>
+        </dl>
+    </div>
+    <br>
+    <h3>Accordian</h3>
+    <details>
+        <summary>HTML</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas corrupti fugiat, esse possimus magni. Perspiciatis eveniet fuga sapiente aspernatur?</p>
 
+    </details>
+<h3>Semantic Tags</h3>
+<header>This is header</header>
+<div>This is DIV</div>
+<main>This is main</main>
+<section>This is section</section>
+<aside>This is aside</aside>
+<figure>This is figure</figure>
+<figcaption>This is caption of the figure</figcaption>
+<footer>This is footer</footer>
+<br>
+<div class="table">
+    <h3>Tables</h3>
+    <br>
+    <table border="1" cellspacing="10px" cellpadding="10px" rules="all">
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Dtroy</td>
+            <td>ENTC</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Dtroy1</td>
+            <td>ENTC</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Dtroy3</td>
+            <td>ENTC</td>
+        </tr>
+    </table>
+    <br>
+    <p>merge with rows and columns</p>
+    <p>we use <b>colspan </b> and <b> rowspan </b></p>
+    <br>
+    <table border="1" cellspacing="10px" cellpadding="10px" rules="all">
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td colspan="2">01</td>   
+            <!-- <td>Dtroy</td> -->
+            <td>ENTC</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Dtroy1</td>
+            <td rowspan="2">ENTC</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Dtroy3</td>
+            <!-- <td>ENTC</td> -->
+        </tr>
+    </table>
+</div>
+<div class="chess">
+    <h3>Chess</h3>
+    <br>
+    <table height="200px" width="250px" border="1" rules="all">
+        <tr>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+        </tr>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+        </tr>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+        </tr>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+            <td></td>
+            <td bgcolor="black"></td>
+        </tr>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+            <th bgcolor="black"></th>
+            <th></th>
+        </tr>    
+    </table>
+</div>
+<div class="players">
+    <h3>Players</h3>
+    <br>
+    <table  border="1" height="200px" width="450px" rules="all">
+        <tr>
+            <th>
+                <img src="https://shorturl.at/iovE8" alt="msd" height="50px" width="65px">
+            </th>
+            <th> MS DHONI</th>
+            <th>
+                <table >
+                    <tr>
+                        <th> 
+                            <a href="https://en.wikipedia.org/wiki/MS_Dhoni" target="_blank">
+                                <img src="https://www.svgrepo.com/show/127660/wikipedia-logo.svg" alt="Wiki"  height="30px" width="40px" >
+                            </a>
+                        </th>
+                        
+                            <th> 
+                                <a href="https://www.instagram.com/mahi7781/?hl=en" target="_blank">
+                                    <img src="https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg" alt="Insta" height="30px" width="40px">
+                                </a>
+          
+                            <th> 
+                                <a href="https://twitter.com/msdhoni?" target="_blank">
+                                    <img src="https://www.svgrepo.com/show/164613/twitter-logo.svg" alt="Twitt" height="30px" width="40px">
+                                </a>
+                            </th>    
+                    </tr>
+                </table>
+            </th>
+        </tr>
 
+        <tr>
+            <th>
+                <img src="https://shorturl.at/pyFOW" alt="Virat" height="50px" width="60px">
+            </th>
+            <th> Virat Kholi</th>
+            <th>
+                <table >
+                    <tr>
+                        <th> 
+                            <a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank">
+                                <img src="https://www.svgrepo.com/show/127660/wikipedia-logo.svg" alt="Wiki"  height="30px" width="40px" >
+                            </a>
+                        </th>
+                        
+                            <th> 
+                                <a href="https://www.instagram.com/virat.kohli/?hl=en" target="_blank">
+                                    <img src="https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg" alt="Insta" height="30px" width="40px">
+                                </a>
+                            </th>
 
+                            <th> 
+                                <a href="https://twitter.com/imVkohli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                                    <img src="https://www.svgrepo.com/show/164613/twitter-logo.svg" alt="Twitt" height="30px" width="40px">
+                                </a>
+                            </th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
 
+        <tr>
+            <th>
+                <img src="https://shorturl.at/glJS6" alt="RS" height="50px" width="60px">
+            </th>
+            <th> Rohit Sharma</th>
+            <th>
+                <table  >
+                    <tr>
+                        <th> 
+                            <a href="https://en.wikipedia.org/wiki/Rohit_Sharma" target="_blank">
+                                <img src="https://www.svgrepo.com/show/127660/wikipedia-logo.svg" alt="Wiki"  height="30px" width="40px" >
+                            </a>
+                        </th>
+                        
+                            <th> 
+                                <a href="https://www.instagram.com/rohitsharma45/?hl=en" target="_blank">
+                                    <img src="https://www.svgrepo.com/show/424911/instagram-logo-facebook-2.svg" alt="Insta" height="30px" width="40px">
+                                </a>
+                            </th>
 
+                            <th> 
+                                <a href="https://twitter.com/ImRo45?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                                    <img src="https://www.svgrepo.com/show/164613/twitter-logo.svg" alt="Twitt" height="30px" width="40px">
+                                </a>
+                            </th>
+                                
+                    </tr>
+                </table>
+            </th>
+        </tr>
 
+    </table>
+</div>
+<div class="form">
+    <h3>Form</h3>
+    <br>
+    <fieldset>
+        <legend style="margin-left: 30%;"><b> Registration Form </b></legend>
+        <br>
+            <form action="#" method="GET" style="margin-left: 10px;">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <br> <br>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+                <br> <br>
+                <label for="Phone_num">Phone_num</label>
+                <input type="tel" name="Phone_num" id="Phone_num" value="+91">
+                <br> <br>
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="Password">
+                <br> <br>
+                <label for="DOB">DOB</label>
+                <input type="datetime-local" name="DOB" id="DOB">
+                <br> <br>
+                <label for="Address">Address</label>
+                <textarea name="Address" id="Address" cols="30" rows="5"></textarea>
+                <br> <br>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" id="Gender" value="Male">Male
+                <input type="radio" name="Gender" id="Gender" value="Female">Female
+                <br> <br>
+                <label for="Courses">Courses</label>
+                <input type="checkbox" name="Courses" id="Courses" value="MT">MT
+                <input type="checkbox" name="Courses" id="Courses" value="Java">Java
+                <input type="checkbox" name="Courses" id="Courses" value="SQL">SQL
+                <input type="checkbox" name="Courses" id="Courses" value="WT">WT
+                <br> <br>
+                <label for="Branches">Branches</label>
+                <select name="branch" id="branch">
+                    <optgroup label="Pune">
+                        <option value=""></option>
+                        <option value="Hadapsar">Hadapsar</option>
+                        <option value="Wakad">Wakad</option>
+                        <option value="Deccan">Deccan</option>
+                    </optgroup>
+                </select>
+                <br> <br>
+                <label for="Age">Age</label>
+                <input type="number" name="Age" id="Age">
+                <br> <br>
+                <label for="File">File</label>
+                <input type="file" name="File" id="File">
+                <br> <br>
+                <label for="Image">Upload Image</label>
+                <input type="file" name="Image" id="Image" accept="image/*">
+                <br>
+                <br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <br>
 
+            </form>
+    </fieldset>
+</div>
+<div class="task">
+    <h3>Password Task</h3>
+    <br>
+    <form action="#" method="GET">
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="password" pattern="([A-Z]{4})([a-z]{4})((\d){1})([\W_]{1})">
+        <input type="submit" value="submit">
+        <details>
+            <summary>HINT</summary>
+            <ul>
+                <li>4 - UpperCASE</li>
+                <li>4 - LowerCASE</li>
+                <li>1 - Digit</li>
+                <li>1 - Special Character</li>
 
-
+            </ul>
+        </details>
+    </form>
+</div>
 </body>
 </html>
