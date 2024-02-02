@@ -1,0 +1,9 @@
+@import url('navbar.css');
+@import url('header.css');
+@import url('section.css');
+@import url('footer.css');
+
+
+h3{
+    text-align: center;
+}
