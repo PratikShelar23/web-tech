@@ -1,3 +1,27 @@
 h3{
     text-align: center;
 }
+
+p{
+    color:burlywood;
+}
+
+#p1{
+    background-color: black;
+}
+
+.pc1{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+}
+
+#p1, .pc1{
+    font-weight: 600;
+}
+
+*{
+    background-color:bisque;
+}
