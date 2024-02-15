@@ -95,3 +95,31 @@
     left: 50%;
     top: 140%;
 }
+
+#f14{
+    position: absolute;
+    left: 50%;
+    top: 125%;
+}
+#f15{
+    position: absolute;
+    left: 60%;
+    top: 125%;
+}
+
+#slider{
+    position: absolute;
+    left: 60%;
+    top: 130%;
+}
+
+#animation{
+    position: absolute;
+    left: 60%;
+    top: 135%;
+}
+#Carlight{
+    position: absolute;
+    left: 60%;
+    top: 140%;
+}
