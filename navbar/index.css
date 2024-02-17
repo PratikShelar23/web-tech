@@ -1,0 +1,30 @@
+.container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+@media screen and (max-width:375px){
+    #box1{
+        display: block;
+    }    
+}
+
+@media (min-width:376px) and (max-width:1020px){
+    #box2{
+        display: block;
+    }    
+}
+
+@media (min-width:1021px) and (max-width:1200px){
+    #box3{
+        display: block;
+    }    
+}
+
+@media (min-width:1201px) and (max-width:1400px){
+    #box4{
+        display: block;
+    }    
+}
